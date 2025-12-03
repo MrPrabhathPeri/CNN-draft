@@ -5,7 +5,7 @@ import tensorflow as tf
 from tensorflow import keras
 
 # ------------ CONFIG ------------
-MODEL_PATH = "defect_detection_resnet50_final.h5"
+MODEL_PATH = "defect_detection_resnet50.h5"
 
 # Use the exact order printed in Colab for class_names
 CLASS_NAMES = ["def_front", "ok_front"]  # example: update if yours are different
